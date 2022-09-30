@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43390" started-at="2022-09-29T03:25:35Z" finished-at="2022-09-29T03:26:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43390" started-at="2022-09-29T03:25:35Z" finished-at="2022-09-29T03:26:18Z">
+      <class name="org.movie.TestngConcept">
+        <test-method status="PASS" signature="launchbrowser()[pri:0, instance:org.movie.TestngConcept@239963d8]" name="launchbrowser" is-config="true" duration-ms="27984" started-at="2022-09-29T03:25:35Z" finished-at="2022-09-29T03:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="FAIL" signature="verifyReleaseDateAndCountrySameOrNotInImdbAndWiki()[pri:0, instance:org.movie.TestngConcept@239963d8]" name="verifyReleaseDateAndCountrySameOrNotInImdbAndWiki" duration-ms="13619" started-at="2022-09-29T03:26:03Z" finished-at="2022-09-29T03:26:17Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Verify Release Date expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Verify Release Date expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at org.movie.TestngConcept.verifyReleaseDateAndCountrySameOrNotInImdbAndWiki(TestngConcept.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReleaseDateAndCountrySameOrNotInImdbAndWiki -->
+        <test-method status="PASS" signature="quitChrome()[pri:0, instance:org.movie.TestngConcept@239963d8]" name="quitChrome" is-config="true" duration-ms="1733" started-at="2022-09-29T03:26:17Z" finished-at="2022-09-29T03:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitChrome -->
+      </class> <!-- org.movie.TestngConcept -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
